@@ -182,8 +182,7 @@ h1 {
 }
 
 .home {
-  
-   font-size: 80px;
+    font-size: 80px;
     .row {
         height: 33%;
         font-weight: 500px;
@@ -203,12 +202,65 @@ h1 {
     }
 
     #home3 {
-        background-color: rgba(236,29,38,255)
-        ;
-        ;
+        background-color: rgba(236, 29, 38, 255);
     }
 
-    #loginImg{
+    #loginImg {
         color: whitesmoke;
+    }
+}
+
+#comicInfo {
+    margin-left: auto;
+    margin-right: auto;
+    hr {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col-sm-4 {
+        margin-top: 12px;
+        
+    }
+    .col-md-6 {
+        margin-top: 12px;
+        margin-bottom: 52px;
+        text-align: justify;
+        p {
+            margin-top: 30px;
+        }
+    }
+    .col {
+        text-align: justify;
+        p {
+            margin-top: 60px;
+        }
+    }
+}
+
+#characterInfo {
+    margin-left: auto;
+    margin-right: auto;
+    hr {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col-sm-4 {
+        margin-top: 12px;
+    }
+    .col-md-6 {
+        margin-top: 12px;
+        margin-bottom: 52px;
+        text-align: justify;
+        p {
+            margin-top: 30px;
+        }
+    }
+    .col {
+        text-align: justify;
+        p {
+            margin-top: 60px;
+        }
     }
 }
