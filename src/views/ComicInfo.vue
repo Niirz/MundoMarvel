@@ -12,7 +12,7 @@
         <span
           ><b><h3>Description:</h3></b></span
         >
-       <p> {{ comic.description }}</p>
+        <p>{{ comic.description }}</p>
       </div>
       <div v-else class="col-md-6">
         <b><h3 style="text-align: left">Description:</h3></b>
@@ -32,8 +32,21 @@
           </div>
         </div>
       </div>
-      <div v-for="date in dates" :date="date">
-        <span>Dates: </span> {{ comic.date }}
+      <div>
+        <div v-if="comic.prices[0].price != 0" id="precio">
+          <button type="button" class="btn btn-success">
+            Precio: $ {{ comic.prices[0].price }} USD
+          </button>
+        </div>
+        <div v-else id="precio">
+          <button v-on:click="alertar" type="button" class="btn btn-warning">
+            No disponible
+          </button>
+        </div>
+        <!-- <div >
+          <div>{{ comic.dates }}</div>
+          <span>Dates: </span> {{ comic.dates[0].date }}
+        </div> -->
       </div>
     </div>
 
@@ -69,6 +82,9 @@ export default {
           this.comics.push(json.data.results[0]);
           //console.log(json.data.results[0])
         });
+    },
+    alertar: function () {
+      swal("Oops :( ", "Artículo no disponible para la venta", "warning");
     },
   },
 };

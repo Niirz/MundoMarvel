@@ -1,31 +1,31 @@
 <template >
   <div>
-    <div class="container">
-      <form action="/action_page.php">
+    <div class="container" id="loginForm">
+      <form action="">
         <div class="form-group">
-          <label for="email">Email address:</label>
+          <label for="email">Email:</label>
           <input
             type="email"
             class="form-control"
-            placeholder="Enter email"
+            placeholder="correo@ejemplo.cl"
             id="email"
           />
         </div>
         <div class="form-group">
-          <label for="pwd">Password:</label>
+          <label for="pwd">Contraseña:</label>
           <input
             type="password"
             class="form-control"
-            placeholder="Enter password"
+            placeholder=""
             id="pwd"
           />
         </div>
         <div class="form-group form-check">
           <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" /> Remember me
+            <input class="form-check-input" type="checkbox" /> Recordarme
           </label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Ingresar</button>
       </form>
     </div>
   </div>
