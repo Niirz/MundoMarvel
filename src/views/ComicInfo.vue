@@ -20,7 +20,8 @@
           <div class="col">
             <p>No se ha encontrado descripción :(</p>
             <br />
-            Pero no te preocupes, solo algunas no la poseen! :D
+            Pero no te preocupes, solo alginos cómics no la poseen!
+            <i class="bi bi-emoji-wink"></i>
           </div>
           <div class="col">
             <span>
@@ -32,17 +33,52 @@
           </div>
         </div>
       </div>
-      <div>
-        <div v-if="comic.prices[0].price != 0" id="precio">
-          <button type="button" class="btn btn-success">
-            Precio: $ {{ comic.prices[0].price }} USD
-          </button>
+
+      <div id="botones" class="container">
+        <hr />
+        <div class="row">
+          <div class="col">
+            <div v-if="comic.prices[0].price != 0" id="precio">
+              <button type="button" class="btn btn-success">
+                Precio: $ {{ comic.prices[0].price }} USD
+              </button>
+            </div>
+            <div v-else id="precio">
+              <button
+                v-on:click="alertar"
+                type="button"
+                class="btn btn-warning"
+              >
+                No disponible
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-danger">
+              <i class="bi bi-cart-plus"></i> Carrito
+            </button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-info">
+              <i class="bi bi-star"></i> Calificar
+            </button>
+          </div>
         </div>
-        <div v-else id="precio">
-          <button v-on:click="alertar" type="button" class="btn btn-warning">
-            No disponible
-          </button>
+        <hr />
+        <div class="row">
+          <div class="col">
+            <button
+              @click="$router.go(-1)"
+              type="button"
+              class="btn btn-danger"
+            >
+              <i class="bi bi-arrow-left-circle"></i> Regresar
+            </button>
+          </div>
         </div>
+      </div>
+
+      <div class="row">
         <!-- <div >
           <div>{{ comic.dates }}</div>
           <span>Dates: </span> {{ comic.dates[0].date }}
@@ -53,12 +89,6 @@
     <!-- <div v-for="image in images" :image="image">
       <img :src="comic.images" alt="" />
     </div> -->
-  </section>
-
-  <section>
-    <button @click="$router.go(-1)" type="button" class="btn btn-danger">
-      <i class="bi bi-arrow-left-circle"></i> Regresar
-    </button>
   </section>
 </template>
 <script>

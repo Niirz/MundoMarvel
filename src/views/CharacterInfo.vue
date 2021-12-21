@@ -23,7 +23,7 @@
         <div class="col">
           <p>No se ha encontrado descripción :(</p>
           <br />
-          Pero no te preocupes, solo algunas no la poseen! :D
+          Pero no te preocupes, solo algunos personajes no la poseen! <i class="bi bi-emoji-wink"></i>
         </div>
         <div class="col">
           <span>
