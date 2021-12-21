@@ -70,7 +70,7 @@
             <button
               @click="$router.go(-1)"
               type="button"
-              class="btn btn-danger"
+              class="btn btn-primary"
             >
               <i class="bi bi-arrow-left-circle"></i> Regresar
             </button>
