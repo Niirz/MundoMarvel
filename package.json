@@ -13,6 +13,8 @@
     "crypto": "^1.0.1",
     "joi": "^17.5.0",
     "jsonwebtoken": "^8.5.1",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.3.0",
     "vue": "^3.2.16"
   },
   "devDependencies": {

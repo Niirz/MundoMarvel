@@ -34,12 +34,12 @@
         </div>
       </div>
 
-      <div style="text-align: center;" id="botones" class="container">
+      <div style="text-align: center" id="botones" class="container">
         <hr />
         <div class="row">
           <div class="col">
             <div v-if="comic.prices[0].price != 0" id="precio">
-              <button type="button" class="btn btn-success">
+              <button v-on:click="boleta" type="button" class="btn btn-success">
                 Precio: $ {{ comic.prices[0].price }} USD
               </button>
             </div>
@@ -112,6 +112,25 @@ export default {
           this.comics.push(json.data.results[0]);
           //console.log(json.data.results[0])
         });
+    },
+    boleta: function () {
+      swal({
+        title: "Comprar artículo?",
+        text: "Desea Comprar el comic seleccionado?",
+        icon: "info",
+        buttons: true,
+        dangerMode: false,
+      }).then((willDelete) => {
+        if (willDelete) {
+          swal("Se ha vendido, ahora a disfrutar :)", {
+            icon: "success",
+          });
+        } else {
+          swal("Compra cancelada", {
+            icon: "error",
+          });
+        }
+      });
     },
     alertar: function () {
       swal("Oops :( ", "Artículo no disponible para la venta", "warning");
