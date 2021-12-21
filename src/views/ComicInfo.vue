@@ -54,9 +54,17 @@
             </div>
           </div>
           <div class="col">
-            <button type="button" class="btn btn-danger">
+            <div v-if="comic.prices[0].price != 0" id="precio">
+              <button v-on:click="agregado" type="button" class="btn btn-danger">
               <i class="bi bi-cart-plus"></i> Carrito
             </button>
+            </div>
+            <div v-else id="precio">
+              <button type="button" disabled class="btn btn-danger">
+              <i class="bi bi-cart-plus"></i> Carrito
+            </button>
+            </div>
+            
           </div>
           <div class="col">
             <button type="button" class="btn btn-info">
@@ -115,6 +123,9 @@ export default {
     },
     alertar: function () {
       swal("Oops :( ", "Artículo no disponible para la venta", "warning");
+    },
+    agregado: function () {
+      swal(this.comics[0].title, "Se ha agregado a tu carrito" ,"success");
     },
   },
 };
