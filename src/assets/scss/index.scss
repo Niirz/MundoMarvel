@@ -236,10 +236,12 @@ h1 {
         }
     }
     #botones {
+        margin-top: 15px;
         .col {
             text-align: center;
         }
     }
+    
 
     #characterInfo {
         margin-left: auto;
@@ -277,11 +279,10 @@ h1 {
         }
     }
 
-    #precio {
-        margin-bottom: 15px;
-    }
+   
     #botones {
-        align-items: center;
-        justify-content: center;
+        .col {
+            text-align: center;
+        }
     }
 }
