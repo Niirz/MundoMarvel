@@ -8,7 +8,7 @@
       <div class="col-sm-4">
         <img :src="comic.thumbnail.path + '.jpg'" alt="" width="250" />
       </div>
-      <div v-if="comic.description != ''" class="col-md-6">
+      <div v-if="comic.description != '' && comic.description != '#N/A'" class="col-md-6">
         <span
           ><b><h3>Description:</h3></b></span
         >
