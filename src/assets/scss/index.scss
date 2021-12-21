@@ -220,7 +220,6 @@ h1 {
     }
     .col-sm-4 {
         margin-top: 12px;
-        
     }
     .col-md-6 {
         margin-top: 12px;
@@ -236,48 +235,53 @@ h1 {
             margin-top: 60px;
         }
     }
-}
+    #botones {
+        .col {
+            text-align: center;
+        }
+    }
 
-#characterInfo {
-    margin-left: auto;
-    margin-right: auto;
-    hr {
-        width: 85%;
+    #characterInfo {
         margin-left: auto;
         margin-right: auto;
-    }
-    .col-sm-4 {
-        margin-top: 12px;
-    }
-    .col-md-6 {
-        margin-top: 12px;
-        margin-bottom: 52px;
-        text-align: justify;
-        p {
-            margin-top: 30px;
+        hr {
+            width: 85%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .col-sm-4 {
+            margin-top: 12px;
+        }
+        .col-md-6 {
+            margin-top: 12px;
+            margin-bottom: 52px;
+            text-align: justify;
+            p {
+                margin-top: 30px;
+            }
+        }
+        .col {
+            text-align: justify;
+            p {
+                margin-top: 60px;
+            }
         }
     }
-    .col {
-        text-align: justify;
-        p {
-            margin-top: 60px;
+
+    #loginForm {
+        margin-top: 70px;
+        width: 650px;
+        .form-group {
+            margin-bottom: 30px;
+            text-align: left;
         }
     }
-}
 
-#loginForm{
-    margin-top: 70px;
-    width: 650px;
-    .form-group{
-        margin-bottom: 30px;
-        text-align: left;
+    #precio {
+        margin-bottom: 15px;
     }
-}
-
-#precio{
-    margin-bottom: 15px;
-}
-#botones{
-    align-items: center;
-    justify-content: center;
+    #botones {
+        align-items: center;
+        justify-content: center;
+    }
 }
