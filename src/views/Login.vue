@@ -1,5 +1,6 @@
 <template >
   <div>
+    <h1><b>Bienvenido</b></h1>
     <div class="container" id="loginForm">
       <form action="">
         <div class="form-group">

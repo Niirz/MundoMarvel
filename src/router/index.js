@@ -56,6 +56,14 @@ const routes = [
         // esto genera un chunk separado (about.[hash].js) para esta ruta
         // que se carga de forma perezosa (lazy-loaded) cuando se visita la ruta.
         component: () => import(/* webpackChunkName: "about" */ '@/views/Login.vue')
+    },
+    {
+        path: '/registro',
+        name: 'Registro',
+        // división del código a nivel de ruta
+        // esto genera un chunk separado (about.[hash].js) para esta ruta
+        // que se carga de forma perezosa (lazy-loaded) cuando se visita la ruta.
+        component: () => import(/* webpackChunkName: "about" */ '@/views/Registro.vue')
     }
 
 ]
