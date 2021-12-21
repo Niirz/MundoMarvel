@@ -34,7 +34,7 @@
         </div>
       </div>
 
-      <div id="botones" class="container">
+      <div style="text-align: center;" id="botones" class="container">
         <hr />
         <div class="row">
           <div class="col">
