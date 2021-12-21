@@ -15,13 +15,11 @@
             width="140px"
             alt=""
           />
-          <div id="info">INFO 1</div>
+          <div id="info">Cómics</div>
           <div id="subInfo">
-            INFO
+            Busca y encuentra el cómic de marvel que tanto estas buscando 
             <br />
-            INFO
-            <br />
-            INFO
+            Tenemos una base de datos con la mayoria de cómics existentes
           </div>
         </div>
         <div class="col-md">
@@ -30,13 +28,9 @@
             width="140px"
             alt=""
           />
-          <div id="info2">INFO 2</div>
+          <div id="info2">Personajes</div>
            <div id="subInfo2">
-            INFO
-            <br />
-            INFO
-            <br />
-            INFO
+            Encuentra información de cada uno de los personajes que tienen apariciones dentro de los comics de marvel
           </div>
         </div>
         <div class="col-md">
@@ -45,13 +39,9 @@
             width="140px"
             alt=""
           />
-          <div id="info">INFO 3</div>
+          <div id="info">Sobre Nosotros</div>
            <div id="subInfo">
-            INFO
-            <br />
-            INFO
-            <br />
-            INFO
+            Nuestra página es la recopilación mas grande de los comics de marvel que hay en internet, encontraras todos los cómics y personajes del mundo Marvel.
           </div>
         </div>
         <div class="col-md">
@@ -60,13 +50,13 @@
             width="140px"
             alt=""
           />
-          <div id="info2">INFO 4</div>
+          <div id="info2">Contacto</div>
           <div id="subInfo2">
-            INFO
+            s.barria03@ufromail.cl
             <br />
-            INFO
+            r.carrasco05@ufromail.cl
             <br />
-            INFO
+            n.rivas03@ufromail.cl
           </div>
         </div>
       </div>
@@ -74,32 +64,27 @@
     <div id="container3">
       <div class="row">
         <div id="info" class="col-md">
-          INFO
           <br />
-          INFO
+          Comenta y califica tus cómics favoritas para compartir tu experiencia con otros SIN SPOILERS.
           <br />
-          INFO
         </div>
         <div id="info2" class="col-md">
-          INFO
           <br />
-          INFO
+          Dentro de cada personaje encuentra una pequeña descripción de ellos para conocerlos aun mejor.
           <br />
-          INFO
         </div>
         <div id="info" class="col-md">
-          INFO
           <br />
-          INFO
+          En tu cuenta puedes tener tus cómics favoritos, valorarlos y agregar comentarios útiles para otros lectores
           <br />
-          INFO
         </div>
         <div id="info2" class="col-md">
-          INFO
           <br />
-          INFO
+          +56954510696
           <br />
-          INFO
+          +56978567198
+          <br />
+          +56954543129
         </div>
       </div>
     </div>
