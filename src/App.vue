@@ -39,11 +39,6 @@ export default {
           <li class="nav-item">
             <router-link class="nav-link" to="/CharacList">Personajes</router-link>
           </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/landingPage"
-              >Landing Page</router-link
-            >
-          </li>
         </ul>
         <span><i style="color: lightgray;" class="bi bi-person-circle"></i></span>
         <span>

@@ -123,14 +123,13 @@ export default {
     },
     boleta: function () {
       swal({
-        title: "Comprar artículo?",
-        text: "Desea Comprar el comic seleccionado?",
+        title: "Desea Comprar "+ this.comics[0].title+"?",
         icon: "info",
         buttons: true,
         dangerMode: false,
       }).then((willDelete) => {
         if (willDelete) {
-          swal("Se ha vendido, ahora a disfrutar :)", {
+          swal("Comic comprado, ahora a disfrutar :)", {
             icon: "success",
           });
         } else {
