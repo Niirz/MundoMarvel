@@ -124,11 +124,16 @@ h1 {
     padding-bottom: 5px;
     margin-left: 0px;
     padding-left: 0px;
+    i {
+        margin-right: 8px;
+    }
     .row {
         margin-left: 0;
         margin-right: 0;
     }
     #subInfo {
+        margin-bottom: 25px;
+        padding: 2px;
         border: 2px solid rgb(6, 26, 26);
         border-radius: 6px;
         font-family: Marvel;
@@ -136,6 +141,9 @@ h1 {
         font-size: 1.32rem;
     }
     #subInfo2 {
+        margin-bottom: 35px;
+        padding: 2px;
+        // height:134.78px ;
         border: 2px solid rgb(45, 154, 190);
         border-radius: 6px;
         font-family: Marvel;
@@ -178,6 +186,9 @@ h1 {
         font-family: Marvel;
         color: white;
         font-size: 1.32rem;
+        i {
+            margin-right: 8px;
+        }
     }
 }
 
@@ -243,48 +254,72 @@ h1 {
             text-align: center;
         }
     }
-    
 }
-    #characterInfo {
+#characterInfo {
+    margin-left: auto;
+    margin-right: auto;
+    hr {
+        width: 85%;
         margin-left: auto;
         margin-right: auto;
-        hr {
-            width: 85%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .col-sm-4 {
-            margin-top: 12px;
-        }
-        .col-md-6 {
-            margin-top: 12px;
-            margin-bottom: 52px;
-            text-align: justify;
-            p {
-                margin-top: 30px;
-            }
-        }
-        .col {
-            text-align: justify;
-            p {
-                margin-top: 60px;
-            }
+    }
+    .col-sm-4 {
+        margin-top: 12px;
+    }
+    .col-md-6 {
+        margin-top: 12px;
+        margin-bottom: 52px;
+        text-align: justify;
+        p {
+            margin-top: 30px;
         }
     }
-
-    #loginForm {
-        margin-top: 30px;
-        width: 650px;
-        .form-group {
-            margin-bottom: 30px;
-            text-align: left;
+    .col {
+        text-align: justify;
+        p {
+            margin-top: 60px;
         }
     }
+}
 
-   
-    #botones {
-
-        .col {
-            text-align: center;
-        }
+#loginForm {
+    margin-top: 30px;
+    width: 650px;
+    .form-group {
+        margin-bottom: 30px;
+        text-align: left;
     }
+}
+
+#botones {
+    .col {
+        text-align: center;
+    }
+}
+
+#footer {
+    i{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+    }
+    .btn {
+      
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+}
+
+#registroLink{
+ text-decoration: none;
+ font-weight: bold;
+ font-family: marvel;
+ font-size: 1.5rem;
+ color: whitesmoke;
+ i{
+     margin-right: 12px;
+ }
+}

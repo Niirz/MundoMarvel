@@ -37,16 +37,21 @@ export default {
             <router-link class="nav-link" to="/ComicList">Cómics</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/CharacList">Personajes</router-link>
+            <router-link class="nav-link" to="/CharacList"
+              >Personajes</router-link
+            >
           </li>
         </ul>
-        <span><i style="color: lightgray;" class="bi bi-person-circle"></i></span>
+        <span
+          ><i style="color: lightgray" class="bi bi-person-circle"></i
+        ></span>
         <span>
           <router-link class="nav-link" to="/login">Ingresar</router-link>
         </span>
       </div>
     </div>
   </nav>
+
   <router-view></router-view>
 </template>
 

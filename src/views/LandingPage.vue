@@ -16,8 +16,9 @@
             alt=""
           />
           <div id="info">Cómics</div>
+
           <div id="subInfo">
-            Busca y encuentra el cómic de marvel que tanto estas buscando 
+            Busca y encuentra el cómic de marvel que tanto estás buscando
             <br />
             Tenemos una base de datos con la mayoria de cómics existentes
           </div>
@@ -29,8 +30,9 @@
             alt=""
           />
           <div id="info2">Personajes</div>
-           <div id="subInfo2">
-            Encuentra información de cada uno de los personajes que tienen apariciones dentro de los comics de marvel
+          <div id="subInfo2">
+            Encuentra información de cada uno de los personajes que tienen
+            apariciones dentro de los comics de Marvel
           </div>
         </div>
         <div class="col-md">
@@ -40,8 +42,10 @@
             alt=""
           />
           <div id="info">Sobre Nosotros</div>
-           <div id="subInfo">
-            Nuestra página es la recopilación mas grande de los comics de marvel que hay en internet, encontraras todos los cómics y personajes del mundo Marvel.
+          <div id="subInfo">
+            Nuestra página es la recopilación más grande de los cómics de Marvel
+            que hay en internet, encontrarás todos los cómics y personajes del
+            mundo Marvel.
           </div>
         </div>
         <div class="col-md">
@@ -52,11 +56,11 @@
           />
           <div id="info2">Contacto</div>
           <div id="subInfo2">
-            s.barria03@ufromail.cl
+            <i class="bi bi-envelope-check"></i>s.barria03@ufromail.cl
             <br />
-            r.carrasco05@ufromail.cl
+            <i class="bi bi-envelope-check"></i> r.carrasco05@ufromail.cl
             <br />
-            n.rivas03@ufromail.cl
+            <i class="bi bi-envelope-check"></i> n.rivas03@ufromail.cl
           </div>
         </div>
       </div>
@@ -65,31 +69,99 @@
       <div class="row">
         <div id="info" class="col-md">
           <br />
-          Comenta y califica tus cómics favoritas para compartir tu experiencia con otros SIN SPOILERS.
+          Comenta y califica tus cómics favoritos para compartir tu experiencia
+          con otros SIN SPOILERS.
           <br />
         </div>
         <div id="info2" class="col-md">
           <br />
-          Dentro de cada personaje encuentra una pequeña descripción de ellos para conocerlos aun mejor.
+          Dentro de cada personaje encuentra una pequeña descripción de ellos
+          para conocerlos aun mejor.
           <br />
         </div>
         <div id="info" class="col-md">
           <br />
-          En tu cuenta puedes tener tus cómics favoritos, valorarlos y agregar comentarios útiles para otros lectores
+          En tu cuenta puedes tener tus cómics favoritos, valorarlos y agregar
+          comentarios útiles para otros lectores
           <br />
         </div>
         <div id="info2" class="col-md">
           <br />
-          +56954510696
+          <i class="bi bi-whatsapp"></i> +56954510696
           <br />
-          +56978567198
+          <i class="bi bi-whatsapp"></i> +56978567198
           <br />
-          +56954543129
+          <i class="bi bi-whatsapp"></i> +56954543129
         </div>
       </div>
     </div>
     <div>
-      <img src="" alt="">
+      <footer id="footer" class="bg-secondary text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+           <router-link id="registroLink" to="/registro"><i class="bi bi-person-plus-fill"></i>Regístrate en Mundo Marvel</router-link>
+           <br><br>
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #3b5998"
+              href="#!"
+              role="button"
+              ><i class="bi bi-facebook"></i>
+            </a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #55acee"
+              href="#!"
+              role="button"
+              ><i class="bi bi-twitter"></i
+            ></a>
+
+            <!-- Google -->
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #dd4b39"
+              href="#!"
+              role="button"
+              ><i class="bi bi-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #0082ca"
+              href="#!"
+              role="button"
+              ><i class="bi bi-telegram" ></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-primary btn-floating m-1"
+              style="background-color: #333333"
+              href="#!"
+              role="button"
+              ><i class="bi bi-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2021 Copyright
+        </div>
+        <!-- Copyright -->
+      </footer>
     </div>
   </section>
 </template>
