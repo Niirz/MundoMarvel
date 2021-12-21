@@ -101,7 +101,6 @@
 </template>
 <script>
 import marvelApi from "@/services/marvelApi.js";
-
 export default {
   data() {
     return {
@@ -124,6 +123,7 @@ export default {
     boleta: function () {
       swal({
         title: "Desea Comprar "+ this.comics[0].title+"?",
+        text: "por $"+this.comics[0].prices[0].price+" USD",
         icon: "info",
         buttons: true,
         dangerMode: false,
