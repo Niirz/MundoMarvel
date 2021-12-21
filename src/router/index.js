@@ -4,14 +4,14 @@ import ComicInfo from '@/views/ComicInfo.vue';
 import CharacterInfo from '@/views/CharacterInfo.vue';
 
 const routes = [
-    {
-        path: '/',
-        name: 'Home',
+    //{
+        //path: '/',
+        //name: 'Home',
         // división del código a nivel de ruta
         // esto genera un chunk separado (about.[hash].js) para esta ruta
         // que se carga de forma perezosa (lazy-loaded) cuando se visita la ruta.
-        component: () => import(/* webpackChunkName: "about" */ '@/views/Home.vue')
-    },
+        //component: () => import(/* webpackChunkName: "about" */ '@/views/Home.vue')
+    //},
     {
         path: '/ComicList',
         name: 'ComicList',
@@ -30,7 +30,7 @@ const routes = [
     },
     {
 
-        path: '/landingPage',
+        path: '/',
         name: 'Landing Page',
         // división del código a nivel de ruta
         // esto genera un chunk separado (about.[hash].js) para esta ruta
